@@ -1,0 +1,666 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+@font-face{
+	src:url("../font/Gabelisa Font by Keithzo (7NTypes).otf");
+	font-family: Gabelisa;
+}
+.wrapper{
+	width: 1440px;
+	height: 4170px;
+	background: #A6A6A6;
+	margin: 0 auto;
+	position: relative;
+}
+.header{
+	width: 1440px;
+	height: 825px;
+	background: rgba(255,224,1,.96);
+}
+.trapezoid{
+	border-bottom: 825px solid #ebe9ac;
+	border-left: 164px solid transparent;
+	height: 0;
+	width: 550px;
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.menu{
+	width: 1440px;
+	height: 170px;
+	z-index: 2;
+	position: relative;
+}
+.menu .logo{
+	width: 565px;
+	height: 170px;
+/*	background: pink;*/
+	float: left;
+}
+.menu .logo img{
+	margin-left: 57px;
+	margin-top: 42px;
+}
+.menu .sub-menu{
+	width: 875px;
+	height: 170px;
+/*	background: aqua;*/
+	float: right;
+}
+.menu .sub-menu .express-delivery{
+	width: 875px;
+	height: 131px;
+/*	background: red;*/
+}
+.express-delivery .icon{
+	width: 101px;
+	height: 131px;
+	float: right;
+	padding-top: 46px;
+	padding-left: 17px;
+}
+.express-delivery .icon i{
+	font-size: 62px;
+}
+.express-delivery .text{
+	width: 774px;
+	height: 131px;
+	float: right;
+	text-align: right;
+	padding-top: 58px;
+}
+.express-delivery .text p{
+	font-size: 17px;
+	font-weight: 700;
+}
+.express-delivery .text .number{
+	font-size: 30px;
+}
+.sub-menu .main-menu{
+	width: 875px;
+	height: 39px;
+/*	background: orange;*/
+	padding-left: 230px;
+}
+.main-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 55px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.main-menu ul li a{
+	color: black;
+}
+.main-menu ul li:hover a{
+	color: white;
+	transition-duration: 0.3s;
+}
+/*menu*/
+
+.header .header-design{
+	width: 1440px;
+	height: 655px;
+/*	background: blue;*/
+	position: relative;
+	z-index: 3;
+}
+.header .header-design img{
+	position: absolute;
+}
+.header .header-design #img-1{
+	top: 16px;
+	left: 80px;
+}
+.header .header-design #img-2{
+	top: 10px;
+	right: 665px;
+}
+.header .header-design #img-3{
+	bottom: 48px;
+	left: 647px;
+}
+.header .header-design #img-4{
+	bottom: 66px;
+	right: 83px;
+}
+.header .header-design #img-5{
+	bottom: -250px;
+	left: -270px;
+/*	box-shadow:-15px 10px 147px 0px rgba(12,13,12,0.21);*/
+/*	border-radius: 50%;*/
+}
+.header-design .left{
+	width: 726px;
+	min-height: 655px;
+/*	background: red;*/
+	text-align: center;
+	padding-top: 44px;
+	float: left;
+}
+.header-design .left .title{
+	font-family: Gabelisa;
+	font-size: 58px;
+/*	background: red;*/
+}
+.header-design .left .sub-title{
+	text-transform: uppercase;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 90px;
+}
+.header-design .left .body-text{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 27px;
+	display: inline-block;
+	border-bottom: 2px solid #ccb301;
+	padding-bottom: 42px;
+	margin-bottom: 25px;
+}
+.header-design .left .text{
+	width: 726px;
+	height: 97px;
+/*	background: green;*/
+}
+.header-design .left .text .text-left{
+	width: 370px;
+	height: 97px;
+	float: left;
+/*	background: yellow;*/
+	text-align: right;
+	padding-top: 13px;
+}
+.header-design .left .text .text-left p{
+	font-size: 20px;
+	font-family: 'Fredericka the Great', cursive;
+	text-transform: uppercase;
+}
+.header-design .left .text .text-right{
+	width: 356px;
+	height: 97px;
+	float: left;
+/*	background: #09ED00;*/
+	text-align: left;
+	font-size: 57px;
+	font-family: 'Fredericka the Great', cursive;
+	padding-left: 15px;
+}
+.header-design .left button{
+	width: 228px;
+	height: 58px;
+	background: none;
+	border: 1px solid black;
+}
+.header-design .left button span{
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: 800;
+	cursor: pointer;
+}
+.header-design .left button:hover{
+	background: white;
+	border: none;
+}
+.header-design .left button span:hover{
+	color: #ffe001;
+}
+/*design-left*/
+
+.header-design .right{
+	width: 714px;
+	height: 655px;
+/*	background: pink;*/
+	float: left;
+}
+.header-design .right img{
+	margin-top: 54px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 200px 0px rgba(12,13,12,0.31);
+}
+/*header*/
+.body{
+	width: 1440px;
+	height: 2765px;
+	background: white;
+}
+.body .choose-enjoy{
+	width: 1440px;
+	height: 905px;
+/*	background: orange;*/
+}
+.body .choose-enjoy .title{
+/*	background: aqua;*/
+	height: 235px;
+	width: 1440px;
+	text-align: center;
+	padding-top: 75px;
+}
+.body .choose-enjoy .title .sub-title{
+	text-transform: uppercase;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.choose-enjoy .title .body-text{
+	margin: 0 auto;
+	width: 1120px;
+	font-size: 17px;
+	line-height: 25px;
+}
+.body .choose-enjoy .choose-food{
+	width: 1440px;
+	height: 670px;
+/*	background: yellow;*/
+	position: relative;
+}
+.choose-food .rectangle{
+	width: 1440px;
+	height: 140px;
+	background: #e8e6a9;
+	position: absolute;
+	top: 134px;
+	z-index: 1;
+}
+.choose-food .food{
+	width: 480px;
+	height: 670px;
+/*	background: aqua;*/
+	float: left;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	padding-top: 20px;
+}
+.choose-food .food img{
+	box-shadow: 20px 25px 39px 0px rgba(12,13,12,0.3);
+	background: rgba(12,13,12,0.27);
+	border-radius: 50%;
+	margin-bottom: 45px;
+}
+h1{
+/*	background: rgba(200,42,44,1.00);*/
+	text-transform: uppercase;
+	font-size: 21px;
+}
+.choose-food .body-text{
+	width: 400px;
+	font-size: 17px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.choose-food button{
+	width: 195px;
+	height: 57px;
+	background: #ffe001;
+	border: none;
+	margin-top: 35px;
+}
+.choose-food button span{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 17px;
+	cursor: pointer;
+}
+.choose-food button span:hover{
+	color: white;
+}
+.body .discover{
+	width: 1440px;
+	height: 1300px;
+/*	background: red;*/
+}
+.discover .event{
+	width: 1440px;
+	height: 225px;
+/*	background: pink;*/
+	text-align: center;
+}
+.discover .event .sub-title{
+	text-transform: uppercase;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.discover .event .body-text{
+	margin: 0 auto;
+	width: 1120px;
+	font-size: 17px;
+	line-height: 25px;
+}
+.discover .picture{
+	width: 1440px;
+	height: 550px;
+/*	background: #04E4C5;*/
+	padding-top: 48px;
+}
+.picture .img-food{
+	width: 1440px;
+	height: 350px;
+/*	background: orange;*/
+	display: flex;
+	justify-content: space-between;
+}
+.discover .picture .img-food .img-food-1,.img-food-2,.img-food-3{
+	width: 465px;
+	height: 350px;
+	float: left;
+}
+.img-food .img-food-1{
+	background: black;
+	overflow: hidden;
+}
+.img-food .img-food-1 img{
+	transition-duration: .3s;
+  	height: 100%;
+	width: 100%;
+  	object-fit: cover;
+/*	object-position: -30px;*/
+	opacity: 0.5;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+.img-food .img-food-1:hover{
+	overflow: visible;
+}
+.img-food .img-food-1 img:hover{
+	transform: scale(1.2);
+	opacity: 1;
+	z-index: 2;
+	box-shadow: 0px 0px 60px 0px rgba(12,13,12,0.5);
+}
+.img-food .img-food-2{
+	background: black;
+	overflow: hidden;
+	text-align: center;
+}
+.img-food .img-food-2 img{
+  	height: 100%;
+	width: 100%;
+  	object-fit: cover;
+/*	object-position: -30px;*/
+	opacity: 0.5;
+	transition-duration: .3s;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+.img-food .img-food-2:hover{
+	overflow: visible;
+}
+.img-food .img-food-2 img:hover{
+	transform: scale(1.2);
+	opacity: 1;
+	z-index: 2;
+	box-shadow: 0px 0px 60px 0px rgba(12,13,12,0.5);
+}
+.img-food .img-food-3{
+	background: black;
+	overflow: hidden;
+}
+.img-food .img-food-3 img{
+  	height: 100%;
+	width: 100%;
+  	object-fit: cover;
+/*	object-position: -30px;*/
+	opacity: 0.5;
+	transition-duration: .3s;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+.img-food .img-food-3:hover{
+	overflow: visible;
+}
+.img-food .img-food-3 img:hover{
+	transform: scale(1.2);
+	opacity: 1;
+	z-index: 2;
+	box-shadow: 0px 0px 60px 0px rgba(12,13,12,0.5);
+}
+.slide-bar{
+	list-style: none;
+	text-align: center;
+	margin-top: 66px;
+}
+.slide-bar li{
+	display: inline-block;
+	font-size: 18px;
+	color: #d7d7d7;
+	margin-left: 3px;
+	cursor: pointer;
+}
+.slide-bar li:hover{
+	color: #F9DB01;
+}
+.try-it{
+	width: 1440px;
+	height: 525px;
+/*	background: green;*/
+	padding-left: 108px;
+	padding-top: 57px;
+}
+.try-it .try-it-1{
+	width: 597px;
+	height: 420px;
+/*	background: yellow;*/
+	background-image: url("../image/pasta.jpg");
+	background-size: cover;
+	background-position: right;
+	float: left;
+	margin-right: 50px;
+	padding-left: 25px;
+	padding-top: 42px;
+	cursor: pointer;
+}
+.try-it-1 .text{
+	width: 218px;
+	height: 215px;
+/*	background: #C8FF00;*/
+	color: white;
+}
+.try-it-1 .text p{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+}
+.try-it-1 .text h2{
+	text-transform: uppercase;
+	font-size: 42px;
+}
+.try-it .try-it-2{
+	width: 595px;
+	height: 192px;
+	background: orange;
+	background-image: url("../image/food 5.jpg");
+	background-size: cover;
+	float: left;
+	padding-left: 27px;
+	cursor: pointer;
+}
+.try-it-2 .text{
+	width: 274px;
+	height: 192px;
+/*	background: #C8FF00;*/
+	color: white;
+	padding-top: 28px;
+}
+.try-it-2 .text p{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+}
+.try-it-2 .text h2{
+	text-transform: uppercase;
+	font-size: 33px;
+}
+.try-it .try-it-3{
+	width: 595px;
+	height: 192px;
+	background: purple;
+	background-image: url("../image/chili.jpg");
+	background-size: cover;
+	float: left;
+	margin-top: 35px;
+	padding-left: 27px;
+	cursor: pointer;
+}
+.try-it-3 .text{
+	width: 274px;
+	height: 192px;
+/*	background: #C8FF00;*/
+	color: white;
+	padding-top: 28px;
+}
+.try-it-3 .text p{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+}
+.try-it-3 .text h2{
+	text-transform: uppercase;
+	font-size: 33px;
+}
+.body .reservation{
+	width: 1440px;
+	height: 560px;
+/*	background: wheat;*/
+}
+.reservation .book{
+	width: 1440px;
+	height: 150px;
+	text-align: center;
+/*	background: #FF0076;*/
+	padding-top: 40px;
+}
+.reservation .book .sub-title{
+	text-transform: uppercase;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+}
+.reservation .inform{
+	width: 1440px;
+	height: 410px;
+/*	background: #0F03AC;*/
+}
+.inform table{
+	margin: 0 auto;
+	text-align: center;
+	width: 780px;
+	height: 220px;
+/*	background: white;*/
+}
+.inform input{
+	width: 380px;
+	height: 65px;
+	border-radius: 5px;
+	text-align: left;
+	border: 1px solid #bebebe;
+	margin: 30px 14px 0 14px;
+	padding-left: 15px;
+}
+.inform button{
+	width: 380px;
+	height: 65px;
+	margin-top: 30px;
+	background:#ffe001;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.inform button span{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+}
+.inform button:hover span{
+	color: white;
+}
+.footer{
+	width: 1440px;
+	height: 580px;
+	background: #8E167A;
+	background-image: url("../image/BG Image.jpg");
+	background-size: cover;
+	padding-top: 65px;
+}
+.footer .footer-left{
+	width: 780px;
+	height: 515px;
+/*	background: yellow;*/
+	float: left;
+	margin-left: 85px;
+	padding-left: 20px;
+}
+.footer .footer-left .body-text{
+	width: 537px;
+	height: 255px;
+/*	background: pink;*/
+	color: white;
+	font-size: 17px;
+	margin-top: 70px;
+}
+.footer .footer-left .company{
+	width: 537px;
+	height: 109px;
+/*	background: brown;*/
+	color: white;
+	font-size: 17px;
+}
+.footer .adress{
+	width: 575px;
+	height: 390px;
+/*	background: red;*/
+	float: right;
+	padding-left: 30px;
+	padding-top: 165px;
+}
+.adress i{
+	color: #ffe001;
+	font-size: 35px;
+	margin-top: 18px;
+}
+.adress span{
+	color: white;
+	font-weight: 400;
+	font-size: 17px;
+	margin-left: 35px
+}
+.footer .social{
+	width: 575px;
+	height: 50px;
+/*	background: aqua;*/
+	float: right;
+	padding-right: 35px;
+}
+.social ul{
+	text-align: right;
+}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	width: 35px;
+	height:35px;
+	background: white;
+	border-radius: 50%;
+	color: #141414;
+	font-size: 20px;
+	padding: 7px;
+	text-align: center;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.social ul li:hover{
+	background: #ffe001;
+}
+.social ul li i:hover{
+	color: white;
+}
