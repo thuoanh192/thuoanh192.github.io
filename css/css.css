@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	
+}
+.wrapper{
+	width:100%;
+	height:100vh;
+	background:#E7DDDE;
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+.menu{
+	height: 70px;
+	width: 100%;
+	background-color: #232323;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+	
+}
+
+.menu .menu-left, .menu-right{
+	padding: 22px;
+	float: left;
+	font-size: 22px;
+}
+.menu ul li{
+	padding: 0px 40px;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.5s;
+	
+}
+.menu ul li a:hover,.menu ul li a.active{
+	color: #fab95b;
+}
+.menu .text-center h1 a{
+	color: white;
+	padding: 0 20px;
+	font-size: 50px;
+}
+
+.noidung
+{
+	width: 100%;
+	height:100vh;
+	background-color: tomato;
+	
+}
+#trangmot, #tranghai, #trangba, #trangbon{
+	position: relative;
+}
+
+#trangmot .gioi-thieu{
+	width: 450px;
+	height: 300px;
+/*	background: red;*/
+/*	margin:100px;*/
+	top: 32%;
+	left: 10%;
+	position: absolute;
+	display: block;
+/*	z-index: 1;*/
+}
+.btn-contact{
+	font-size: 17px;
+	padding: 12px 35px;
+	border: none;
+	background: #fab95b;
+	border-radius: 30px;
+	margin-top: 15px;
+	color: white;
+	transition-duration: 0.2s;
+	
+}
+.btn-contact:hover{
+	background: rgba(54,53,53,1.00);
+	cursor:pointer;
+}
+#tranghai .about-left{
+	width: 50%;
+	height:100%;
+	background: wheat;
+	float: left;
+	padding-top: 150px;
+}
+.about-left .photo{
+	width: 500px;
+	height: 350px;
+	background: pink;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.about-left .body-text{
+	width: 550px;
+	height: 200px;
+	margin-left: 150px;
+	background: blue;
+}
+#tranghai .about-right{
+	width: 50%;
+	height:100%;
+	background: rgba(224,154,156,1.00);
+	float: left;
+	padding-top: 150px;
+}
+
+.bar {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+.bar .bar-info {
+  border-radius: 5px;
+  padding: 0.75rem;
+  background: #fd7473;
+  color: white;
+  width: 10%;
+  position: relative;
+  height: 24px;
+  transition: width 3.3s ease-in-out;
+}
+.bar .bar-info .percent {
+  float: right;
+}
+.bar .bar-info.illustrator {
+  background: linear-gradient(#fd7473, #FC688E), #fd7473;
+}
+.bar .bar-info.drawing{
+  background: linear-gradient(#fec951, #FCAD44), #fec951;
+}
+.bar .bar-info.lr {
+  background: linear-gradient(#47b8e0, #28BEFA), #47b8e0;
+}
+.bar .bar-info.ps {
+  background: linear-gradient(#9f68d0, #BB68D0), #9f68d0;
+}
+
+
+
+
+
+
+
+
